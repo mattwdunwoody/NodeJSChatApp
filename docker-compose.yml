@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  snake:
+    image: 'widmatg/chat-app-img'
+    environment:
+      - "PORT:8080"
+    ports:
+      - "80:8080"
+    volumes:
+      - ./:/app
